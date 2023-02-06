@@ -8,7 +8,7 @@
         public bool Active { get; set; }
         public bool CanBeBoughtOnCredit { get; set; }
 
-        public Product(int id, string name, decimal price, bool active, bool canBeBoughtOnCredit)
+        public Product(int id, string name, decimal price, bool active = true, bool canBeBoughtOnCredit = true)
         {
             if (id < 1)
             {
