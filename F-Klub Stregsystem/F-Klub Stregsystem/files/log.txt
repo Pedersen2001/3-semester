@@ -1,0 +1,27 @@
+30.01.2023 03.17.41 – Transaction #2
+Nancy Davolio (ndavo@sample.stregsystem.dk)
+
+Bought: 13 Øl(f.eks. Thy, Guld, 47, T-FF) 10 kr – you now have 390 kr. left
+31.01.2023 00.19.21 – Transaction #2
+Nancy Davolio (ndavo@sample.stregsystem.dk)
+
+Bought: 13 Øl(f.eks. Thy, Guld, 47, T-FF) 10 kr – you now have 390 kr. left
+31.01.2023 00.19.26 – Transaction #3
+Nancy Davolio (ndavo@sample.stregsystem.dk)
+
+Bought: 11 ½L vand & kildevand excl. pant 12 kr – you now have 378 kr. left
+31.01.2023 19.07.13 – Transaction #2
+Nancy Davolio (ndavo@sample.stregsystem.dk)
+
+Bought: 13 Øl(f.eks. Thy, Guld, 47, T-FF) 10 kr – you now have 390 kr. left
+31.01.2023 19.07.32 – Transaction #3
+Nancy Davolio (ndavo@sample.stregsystem.dk)
+
+Bought: 1836 FLAN Chili con Carne Fredag afte 50 kr – you now have 340 kr. left
+Buy Transaction: Transaction ID: 2, User: jleve, Amount: 1200, New Balance: 3850, Date: 10-02-2023 10:46:42, Product: + ½L vand & kildevand excl. pant
+Buy Transaction: Transaction ID: 3, User: jleve, Amount: 1200, New Balance: 2650, Date: 10-02-2023 10:46:56, Product: + ½L vand & kildevand excl. pant
+Buy Transaction: Transaction ID: 4, User: jleve, Amount: 1200, New Balance: 1450, Date: 10-02-2023 10:46:56, Product: + ½L vand & kildevand excl. pant
+Insert Cash Transaction: Transaction ID: 5, User: jleve, Amount: 500, New Balance: 1950, Date: 10-02-2023 10:47:18
+Buy Transaction: Transaction ID: 2, User: lcall, Amount: 1200, New Balance: 101800, Date: 10-02-2023 10:49:58, Product: + Monster
+Buy Transaction: Transaction ID: 3, User: lcall, Amount: 1200, New Balance: 100600, Date: 10-02-2023 10:49:58, Product: + Monster
+Buy Transaction: Transaction ID: 4, User: lcall, Amount: 1200, New Balance: 99400, Date: 10-02-2023 10:49:58, Product: + Monster
