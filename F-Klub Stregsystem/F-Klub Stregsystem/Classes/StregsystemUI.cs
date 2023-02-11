@@ -38,12 +38,12 @@ namespace F_Klub_Stregsystem.Classes
 
         public void DisplayUserNotFound(string username)
         {
-            Console.WriteLine("User " + username + " not found!");
+            Console.WriteLine("User: " + username + " not found!");
         }
 
         public void DisplayProductNotFound(string product)
         {
-            Console.WriteLine("Product " + product + " not found!");
+            Console.WriteLine("Product: " + product + " not found!");
         }
 
         public void DisplayUserInfo(User user)
@@ -58,7 +58,7 @@ namespace F_Klub_Stregsystem.Classes
 
         public void DisplayUserBuysProduct(BuyTransaction transaction)
         {
-            Console.WriteLine(transaction.ToString);
+            Console.WriteLine(transaction.ToString());
         }
 
         private void DisplayActiveProducts()
@@ -78,7 +78,7 @@ namespace F_Klub_Stregsystem.Classes
 
         public void DisplayGeneralError(string errorString)
         {
-            Console.WriteLine("Error " + "\"" + errorString + "\"" + " occurred");
+            Console.WriteLine("Error: " + errorString);
         }
 
         public void DisplayTooManyArgumentsError(string command)
@@ -93,7 +93,7 @@ namespace F_Klub_Stregsystem.Classes
 
         public void DisplayLowBalance(User user, decimal balance)
         {
-            Console.WriteLine("User " + user.UserName + " has a balance below 50 stregdollars " + "(User balance: " + balance + ")");
+            Console.WriteLine("User " + user.UserName + " has a balance below 50 credits " + "(User balance: " + balance + ")");
         }
 
         public void Finish()

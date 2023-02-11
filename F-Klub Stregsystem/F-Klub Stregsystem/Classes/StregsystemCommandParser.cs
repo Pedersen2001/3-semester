@@ -113,11 +113,11 @@ namespace F_Klub_Stregsystem.Classes
             }
             catch (ProductNotActiveException)
             {
-                StregsystemUI.DisplayGeneralError("Product is not active");
+                StregsystemUI.DisplayGeneralError("The product in question is no longer active, and can not be bought");
             }
             catch (InsufficientCreditsException)
             {
-                StregsystemUI.DisplayGeneralError("Insufficient Credits");
+                StregsystemUI.DisplayGeneralError("You do not have enough money to buy the product in question");
             }
             catch (ArgumentException)
             {
@@ -144,11 +144,11 @@ namespace F_Klub_Stregsystem.Classes
             }
             catch (ProductNotActiveException)
             {
-                StregsystemUI.DisplayGeneralError("Product is not active");
+                StregsystemUI.DisplayGeneralError("The product in question is no longer active, and can not be bought");
             }
             catch (InsufficientCreditsException)
             {
-                StregsystemUI.DisplayGeneralError("Insufficient Credits");
+                StregsystemUI.DisplayGeneralError("You do not have enough money to buy the product in question");
             }
             catch (ArgumentException)
             {
@@ -175,7 +175,7 @@ namespace F_Klub_Stregsystem.Classes
                 Product product = Stregsystem.GetProductByID(id);
                 product.Active = true;
             }
-            catch (Exception)
+            catch (ArgumentException)
             {
                 StregsystemUI.DisplayGeneralError("Invalid input");
             }
@@ -234,7 +234,7 @@ namespace F_Klub_Stregsystem.Classes
             try
             {
                 User user = null;
-                decimal amount = 0m;
+                decimal amount = 0;
                 user = Stregsystem.GetUserByUsername(command[1]);
                 amount = decimal.Parse(command[2]);
                 Stregsystem.AddCreditsToAccount(user, amount);
@@ -243,7 +243,7 @@ namespace F_Klub_Stregsystem.Classes
             {
                 StregsystemUI.DisplayGeneralError("User does not exist");
             }
-            catch (Exception)
+            catch (ArgumentException)
             {
                 StregsystemUI.DisplayGeneralError("ID failed to parse");
             }
